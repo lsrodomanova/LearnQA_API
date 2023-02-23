@@ -9,6 +9,5 @@ public class HelloWorldTest {
                 .get("https://playground.learnqa.ru/api/hello")
                 .andReturn();
         response.prettyPrint();
-
     }
 }
