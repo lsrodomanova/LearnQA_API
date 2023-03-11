@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class NewHeadersTest {
 
     @Test
-    public void getCookie() {
+    public void getHeaders() {
 
             Response response = RestAssured
                     .get("https://playground.learnqa.ru/api/homework_header")
