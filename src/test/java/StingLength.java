@@ -9,6 +9,6 @@ public class StingLength {
     @ValueSource(strings = {"qwerty", "", "qwertyuiopasdfgh"})
     public void checkStringLength(String text) {
         int number =  text.length();
-        assertTrue(number>=15);
+        assertTrue(number>15);
     }
 }
